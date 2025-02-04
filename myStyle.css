@@ -10,6 +10,7 @@ body {
 
 
   .container {
+    float: left;
     width: 300px; 
     margin: 50px ;
     background-color: rgb(203, 111, 35);
@@ -23,6 +24,7 @@ body {
   }
 
   .container2 {
+    float: right;
     width: 300px; 
     margin: auto;
     margin-left: 10px;
