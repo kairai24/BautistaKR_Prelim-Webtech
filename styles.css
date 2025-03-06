@@ -1,0 +1,36 @@
+body {
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    font-family: sans-serif;
+  }
+
+
+
+.banner{
+    position: absolute;
+    flex-direction: column;
+      background-image: url('banner.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed; 
+      
+}
+a:link, a:visited {
+  background-color: #f88d89;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  
+}
+
+img {
+    border-radius: 10px;
+    width: 325px;
+    height: 250px;
+}
+#parent1{
+  display: flex;
+  flex-wrap: wrap;
+}

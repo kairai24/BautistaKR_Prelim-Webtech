@@ -1,0 +1,48 @@
+.parent{
+    border: solid;
+    margin: 30px;
+    padding: 15px;
+    color: rgb(7, 8, 9);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    grid-template-columns: 25% 75%;
+    border-radius: 5px;
+}
+
+.box{
+    background-color: black;
+    color: aliceblue;
+    margin: 25px;
+    padding: 20px;
+    
+}
+
+h5{
+    text-align: center;
+}
+
+.box2{
+    margin-top: 75px;
+    padding: 25px;
+}
+
+img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+@media (min-width: 300px) {
+    .parent{
+        background-color: rgb(186, 85, 39);
+        display: flex;
+    } 
+    
+}
+
+
+@media (max-width: 600px) {
+    .parent{
+        background-color: rgb(69, 98, 202);
+        flex-direction: column;
+    }
+    
+}
